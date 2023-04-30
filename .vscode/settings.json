@@ -1,0 +1,19 @@
+{
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true, // 儲存的時候，會幫你自動過濾多餘的空格
+    "files.autoSave": "onFocusChange", // 是否自動儲存檔案
+    "editor.formatOnSave": true,
+
+    // Python
+    "python.formatting.provider": "none",
+    "black-formatter.args" : ["--line-length", "120"],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnPaste": false, //Black didn;t support format selection
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4,
+    },
+    // "python.analysis.typeCheckingMode": "basic",
+}

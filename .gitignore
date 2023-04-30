@@ -1,0 +1,10 @@
+
+build/
+dist/
+dist_onefile/
+flagged/
+venv/
+__pycache__/
+
+*mp3
+*wav
